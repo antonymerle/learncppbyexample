@@ -1,5 +1,6 @@
 #include <cstddef>
 #include <iostream>
+#include <stdexcept>
 #include <string>
 
 void convert_string_to_number()
@@ -38,4 +39,21 @@ void convert_string_to_number()
     std::string remainder = s7.substr(position);
 
     std::cout << i7 << remainder << "\n";
+
+    // exceptions
+    std::string s8{"this is not parsable as an int 123"};
+    try {
+        int i8 = std::stoi(s8);
+        std::cout << i8 << "\n";
+    } catch (const std::invalid_argument& e) {
+        std::cout << e.what() << "\n";
+    }
+
+    std::string s9 = "9999999999999";
+    try {
+        int i8 = std::stoi(s9);
+        std::cout << i8 << "\n";
+    } catch (const std::out_of_range& e) {
+        std::cout << e.what() << "\n";
+    }
 }
