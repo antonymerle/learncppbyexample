@@ -4,9 +4,10 @@ int main(void)
 {
 #if 0
     absolute_value();
+    vector_add();
+    string_append();
+    constructor();
 #endif
-
-    add_vector();
-
+    convert_string_to_number();
     return 0;
 }
