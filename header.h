@@ -6,5 +6,7 @@ void vector_add();
 void string_append();
 void constructor();
 void convert_string_to_number();
+void convert_number_to_string();
+void file_creation();
 
 #endif
