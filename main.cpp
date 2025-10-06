@@ -7,7 +7,9 @@ int main(void)
     vector_add();
     string_append();
     constructor();
-#endif
     convert_string_to_number();
+    convert_number_to_string();
+#endif
+    file_creation();
     return 0;
 }
