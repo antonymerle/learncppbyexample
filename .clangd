@@ -1,2 +1,15 @@
 CompileFlags:
-Add: [-std=c++23, -fcolor-diagnostics, -fansi-escape-codes, -g, -pedantic-errors, -Wall, -Weffc++, -Wextra, -Wconversion, -Wsign-conversion, -Werror]
+  Add: 
+    - -std=c++23
+    - --gcc-install-dir=/usr/lib/gcc/x86_64-linux-gnu/15
+    - --gcc-toolchain=/usr
+    - -fcolor-diagnostics
+    - -fansi-escape-codes
+    - -g
+    - -pedantic-errors
+    - -Wall
+    - -Weffc++
+    - -Wextra
+    - -Wconversion
+    - -Wsign-conversion
+    - -Werror
