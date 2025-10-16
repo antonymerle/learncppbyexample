@@ -9,7 +9,8 @@ int main(void)
     constructor();
     convert_string_to_number();
     convert_number_to_string();
-#endif
     file_creation();
+#endif
+    guessing_game();
     return 0;
 }
