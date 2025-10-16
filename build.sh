@@ -8,5 +8,5 @@ CXXFLAGS="-std=c++23 -fcolor-diagnostics -fansi-escape-codes -g -pedantic-errors
 SOURCE=*.cpp
 TARGET=learn
 
-# Build and run
-$CXX $CXXFLAGS $SOURCE -o $TARGET && ./$TARGET
+# Build
+$CXX $CXXFLAGS $SOURCE -o $TARGET
