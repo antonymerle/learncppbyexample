@@ -10,7 +10,8 @@ int main(void)
     convert_string_to_number();
     convert_number_to_string();
     file_creation();
-#endif
     guessing_game();
+#endif
+    destructor();
     return 0;
 }

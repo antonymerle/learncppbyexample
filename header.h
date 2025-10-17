@@ -9,5 +9,6 @@ void convert_string_to_number();
 void convert_number_to_string();
 void file_creation();
 void guessing_game();
+void destructor();
 
 #endif
