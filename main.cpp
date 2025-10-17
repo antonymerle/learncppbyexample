@@ -11,7 +11,8 @@ int main(void)
     convert_number_to_string();
     file_creation();
     guessing_game();
-#endif
     destructor();
+#endif
+    exceptions();
     return 0;
 }

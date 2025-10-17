@@ -10,5 +10,6 @@ void convert_number_to_string();
 void file_creation();
 void guessing_game();
 void destructor();
+void exceptions();
 
 #endif
