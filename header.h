@@ -11,5 +11,6 @@ void file_creation();
 void guessing_game();
 void destructor();
 void exceptions();
+void hash_map_find();
 
 #endif

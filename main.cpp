@@ -12,7 +12,8 @@ int main(void)
     file_creation();
     guessing_game();
     destructor();
-#endif
     exceptions();
+#endif
+    hash_map_find();
     return 0;
 }
