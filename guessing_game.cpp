@@ -21,6 +21,11 @@ void guessing_game()
             std::cerr << "Failed to read line.\n";
         }
 
+        if (guess_str == "quit" || guess_str == "q") {
+            std::println("Bye.");
+            break;
+        }
+
         try {
             const int guess = std::stoi(guess_str);
             if (guess < 1 || guess > 100) {
@@ -39,6 +44,7 @@ void guessing_game()
                 return;
             }
         } catch (const std::invalid_argument&) {
+            std::println("Please enter a valid number.");
             continue;
         } catch (const std::out_of_range&) {
             std::println("Number out of range, try again.");
