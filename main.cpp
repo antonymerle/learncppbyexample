@@ -10,10 +10,11 @@ int main(void)
     convert_string_to_number();
     convert_number_to_string();
     file_creation();
-    guessing_game();
     destructor();
     exceptions();
-#endif
+    guessing_game();
     hash_map_find();
+#endif
+    unordered_set();
     return 0;
 }

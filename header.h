@@ -12,5 +12,6 @@ void guessing_game();
 void destructor();
 void exceptions();
 void hash_map_find();
+void unordered_set();
 
 #endif
