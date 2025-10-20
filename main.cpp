@@ -14,7 +14,8 @@ int main(void)
     exceptions();
     guessing_game();
     hash_map_find();
-#endif
     unordered_set();
+#endif
+    for_loop();
     return 0;
 }
