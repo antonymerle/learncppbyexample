@@ -27,6 +27,10 @@ void destructor()
     {
         std::vector<Talker> vec;
         vec.emplace_back("Manon");
+        /*
+          push_back adds an existing object,
+          emplace_back constructs the object in place (directly inside the container).
+        */
     }
     Talker basile("Basile");
 
