@@ -22,7 +22,9 @@ int main(void)
     destructor();
     file_read();
     file_read2();
-#endif
     heap();
+    struct_fn();
+#endif
+    test_my_print();
     return 0;
 }

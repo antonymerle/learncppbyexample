@@ -21,5 +21,7 @@ void random_gaussian_normal_dist();
 void range_views();
 void move_demo();
 void heap();
+void struct_fn();
+void test_my_print();
 
 #endif
