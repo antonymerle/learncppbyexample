@@ -23,5 +23,7 @@ void move_demo();
 void heap();
 void struct_fn();
 void test_my_print();
+int args_main(int argc, char* argv[]);
+void member_functions();
 
 #endif

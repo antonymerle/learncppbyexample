@@ -1,6 +1,7 @@
 #include "header.h"
 
-int main(void)
+// int main(int argc, char* argv[])
+int main()
 {
 #if 0
     absolute_value();
@@ -24,7 +25,9 @@ int main(void)
     file_read2();
     heap();
     struct_fn();
-#endif
     test_my_print();
+    args_main(argc, argv);
+#endif
+    member_functions();
     return 0;
 }

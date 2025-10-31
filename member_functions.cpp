@@ -1,3 +1,4 @@
+#include <iostream>
 #include <print>
 #include <string>
 
@@ -71,6 +72,12 @@ int Cat::cat_count = 0;
   Abstract member functions are virtual member fn without an implementation.
   Any class with an abstract member function is called an “abstract class”.
   To denote an abstract virtual member function we use the = 0 syntax.
+
+  ==========================================================================
+
+  Final member functions are virtual functions that are not allowed to be overridden by future
+  derived classes. Because final can only be applied to virtual functions that are being overridden
+  you can omit the override keyword.
  */
 
 class Animal
@@ -84,6 +91,10 @@ class Animal
 
     // abstract member function
     virtual int get_eyes_number() const = 0;
+    virtual bool is_centipede() const
+    {
+        return false;
+    }
 
     virtual ~Animal() {};
 };
@@ -127,6 +138,12 @@ class Centipede : public Animal
     {
         return 20;
     }
+
+    // final member function, cannot be overriden by derived classes
+    bool is_centipede() const final
+    {
+        return true;
+    }
 };
 
 void member_functions()
@@ -148,8 +165,10 @@ void member_functions()
     Cow cow;
     std::println("The cow has {} legs.", cow.get_legs_number());
     std::println("The cow has {} eyes.", cow.get_eyes_number());
+    std::println("I am {}a centipede.", cow.is_centipede() ? "" : "not ");
 
     Centipede centipede;
     std::println("The centipede has {} legs.", centipede.get_legs_number());
     std::println("The centipede has {} eyes.", cow.get_eyes_number());
+    std::println("I am {}a centipede.", centipede.is_centipede() ? "" : "not ");
 }
