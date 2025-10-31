@@ -28,7 +28,8 @@ int main()
     test_my_print();
     args_main(argc, argv);
     member_functions();
-#endif
     namespaces_aliases();
+#endif
+    nearest_integer();
     return 0;
 }
