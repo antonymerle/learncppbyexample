@@ -58,7 +58,7 @@ class Cat
 
 int Cat::cat_count = 0;
 
-/* Virtual Member FunctionsV
+/* Virtual Member Functions
    Virtual member functions enable polymorphism in C++.
    Virtual member functions in base classes can be
    overridden in derived classes by using the override keyword.
@@ -66,15 +66,25 @@ int Cat::cat_count = 0;
    When a const virtual member function is overridden the override
    must also be const.
 
+  ==========================================================================
+
+  Abstract member functions are virtual member fn without an implementation.
+  Any class with an abstract member function is called an “abstract class”.
+  To denote an abstract virtual member function we use the = 0 syntax.
  */
 
 class Animal
 {
    public:
+    // virtual member function
     virtual int get_legs_number() const
     {
         return 0;
     }
+
+    // abstract member function
+    virtual int get_eyes_number() const = 0;
+
     virtual ~Animal() {};
 };
 
@@ -96,6 +106,11 @@ class Cow : public Animal
         return 4;
     }
 
+    virtual int get_eyes_number() const override
+    {
+        return 2;
+    }
+
    private:
     std::string name;
 };
@@ -106,6 +121,11 @@ class Centipede : public Animal
     int get_legs_number() const override
     {
         return 100;
+    }
+
+    virtual int get_eyes_number() const override
+    {
+        return 20;
     }
 };
 
@@ -127,7 +147,9 @@ void member_functions()
     std::println("There are {} cats, {} and {}", cat.get_count(), cat.get_name(), cat2.get_name());
     Cow cow;
     std::println("The cow has {} legs.", cow.get_legs_number());
+    std::println("The cow has {} eyes.", cow.get_eyes_number());
 
     Centipede centipede;
     std::println("The centipede has {} legs.", centipede.get_legs_number());
+    std::println("The centipede has {} eyes.", cow.get_eyes_number());
 }
