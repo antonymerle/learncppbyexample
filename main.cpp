@@ -27,7 +27,8 @@ int main()
     struct_fn();
     test_my_print();
     args_main(argc, argv);
-#endif
     member_functions();
+#endif
+    namespaces_aliases();
     return 0;
 }
