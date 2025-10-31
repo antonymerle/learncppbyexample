@@ -28,5 +28,6 @@ void member_functions();
 void namespaces_aliases();
 void nearest_integer();
 void unordered_map();
+void ordered_set();
 
 #endif

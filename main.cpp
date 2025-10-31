@@ -30,7 +30,8 @@ int main()
     member_functions();
     namespaces_aliases();
     nearest_integer();
-#endif
     unordered_map();
+#endif
+    ordered_set();
     return 0;
 }
