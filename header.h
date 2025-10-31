@@ -27,5 +27,6 @@ int args_main(int argc, char* argv[]);
 void member_functions();
 void namespaces_aliases();
 void nearest_integer();
+void unordered_map();
 
 #endif

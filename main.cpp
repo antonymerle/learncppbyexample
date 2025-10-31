@@ -29,7 +29,8 @@ int main()
     args_main(argc, argv);
     member_functions();
     namespaces_aliases();
-#endif
     nearest_integer();
+#endif
+    unordered_map();
     return 0;
 }
