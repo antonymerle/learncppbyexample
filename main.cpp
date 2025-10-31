@@ -31,7 +31,8 @@ int main()
     namespaces_aliases();
     nearest_integer();
     unordered_map();
-#endif
     ordered_set();
+#endif
+    string_streams();
     return 0;
 }
