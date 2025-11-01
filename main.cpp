@@ -34,7 +34,8 @@ int main()
     ordered_set();
     string_streams();
     csv_parsing();
-#endif
     arrays();
+#endif
+    pointers();
     return 0;
 }

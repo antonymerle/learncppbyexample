@@ -32,5 +32,6 @@ void ordered_set();
 void string_streams();
 void csv_parsing();
 void arrays();
+void pointers();
 
 #endif
