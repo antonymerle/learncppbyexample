@@ -33,7 +33,8 @@ int main()
     unordered_map();
     ordered_set();
     string_streams();
-#endif
     csv_parsing();
+#endif
+    arrays();
     return 0;
 }
