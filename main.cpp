@@ -32,7 +32,8 @@ int main()
     nearest_integer();
     unordered_map();
     ordered_set();
-#endif
     string_streams();
+#endif
+    csv_parsing();
     return 0;
 }
