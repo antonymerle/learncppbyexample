@@ -36,5 +36,7 @@ void pointers();
 void container_print();
 void access_modifiers();
 void recursion();
+void remainder();
+void smart_pointers();
 
 #endif

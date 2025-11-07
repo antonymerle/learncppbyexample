@@ -38,7 +38,9 @@ int main()
     pointers();
     container_print();
     access_modifiers();
-#endif
     recursion();
+    remainder();
+#endif
+    smart_pointers();
     return 0;
 }
