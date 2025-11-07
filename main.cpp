@@ -37,7 +37,8 @@ int main()
     arrays();
     pointers();
     container_print();
-#endif
     access_modifiers();
+#endif
+    recursion();
     return 0;
 }
