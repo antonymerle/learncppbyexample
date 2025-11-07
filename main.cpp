@@ -36,7 +36,8 @@ int main()
     csv_parsing();
     arrays();
     pointers();
-#endif
     container_print();
+#endif
+    access_modifiers();
     return 0;
 }
