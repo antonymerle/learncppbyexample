@@ -40,7 +40,9 @@ int main()
     access_modifiers();
     recursion();
     remainder();
-#endif
     smart_pointers();
+    sort();
+#endif
+    string_split();
     return 0;
 }

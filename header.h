@@ -38,5 +38,7 @@ void access_modifiers();
 void recursion();
 void remainder();
 void smart_pointers();
+void sort();
+void string_split();
 
 #endif
