@@ -42,7 +42,13 @@ int main()
     remainder();
     smart_pointers();
     sort();
-#endif
     string_split();
+    square_root();
+    square();
+    unordered_map_custom_type();
+    string_compare();
+    string_length();
+#endif
+    ppm();
     return 0;
 }

@@ -40,5 +40,11 @@ void remainder();
 void smart_pointers();
 void sort();
 void string_split();
+void square_root();
+void square();
+void unordered_map_custom_type();
+void string_compare();
+void string_length();
+void ppm();
 
 #endif
