@@ -1,5 +1,6 @@
 #include <iostream>
 
+// variadic templates and fold expressions
 template <typename... Args>
 void my_print(const Args&... args)
 {

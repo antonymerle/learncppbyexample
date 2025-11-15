@@ -48,7 +48,8 @@ int main()
     unordered_map_custom_type();
     string_compare();
     string_length();
-#endif
     ppm();
+#endif
+    substring();
     return 0;
 }

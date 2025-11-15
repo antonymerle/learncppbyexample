@@ -46,5 +46,6 @@ void unordered_map_custom_type();
 void string_compare();
 void string_length();
 void ppm();
+void substring();
 
 #endif
