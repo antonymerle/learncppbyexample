@@ -51,7 +51,8 @@ int main()
     ppm();
     substring();
     templates();
-#endif
     string_trim();
+#endif
+    references();
     return 0;
 }

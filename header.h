@@ -49,5 +49,6 @@ void ppm();
 void substring();
 void templates();
 void string_trim();
+void references();
 
 #endif
