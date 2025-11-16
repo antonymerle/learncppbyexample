@@ -49,7 +49,9 @@ int main()
     string_compare();
     string_length();
     ppm();
-#endif
     substring();
+    templates();
+#endif
+    string_trim();
     return 0;
 }

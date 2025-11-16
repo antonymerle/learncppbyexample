@@ -47,5 +47,7 @@ void string_compare();
 void string_length();
 void ppm();
 void substring();
+void templates();
+void string_trim();
 
 #endif
