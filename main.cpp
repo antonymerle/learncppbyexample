@@ -52,7 +52,8 @@ int main()
     substring();
     templates();
     string_trim();
-#endif
     references();
+#endif
+    classes();
     return 0;
 }

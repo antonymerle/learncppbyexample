@@ -50,5 +50,6 @@ void substring();
 void templates();
 void string_trim();
 void references();
+void classes();
 
 #endif
